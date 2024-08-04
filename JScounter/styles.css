@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > * {
+    margin: 1rem;
+}
+
+.headerLabel {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.countLabel {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.buttonArea > button {
+    cursor: pointer;
+    border-width: 3px;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 1.3rem;
+}
+
+#btnDecrease {
+    border-color: red;
+}
+
+#btnIncrease {
+    border-color: green;
+}
