@@ -1,0 +1,9 @@
+*, *::before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+canvas {
+    display: block;
+    background-color: #292929;
+}
