@@ -38,7 +38,7 @@ function animate() {
     if (Math.random() < 0.02) {
         let radius = (Math.random() * 10) + 1
         let x = Math.random() * canvas.width
-        let y = canvas.height + 100
+        let y = canvas.height + radius
         let upVelocity = (Math.random() * -1.2) - 0.5
         circleArray.push(new Circle(x, y, upVelocity, radius))
     } 
