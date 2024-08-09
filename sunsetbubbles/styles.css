@@ -1,0 +1,19 @@
+*, *::before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#sunset {
+    display: block;
+    position: absolute;
+    background: linear-gradient(rgba(230,100,101, 0.5), rgba(145,152,229,1));
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+canvas {
+    display: block;
+    background-color: white;
+    z-index: -1;
+}
